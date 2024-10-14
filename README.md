@@ -108,6 +108,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Additional Notes:
 
 	•	Issues: If you encounter any bugs or have suggestions for features, please open an issue.
-	•	Support: For help or questions, feel free to reach out to your.email@domain.com.
+	•	Support: For help or questions, feel free to reach out to anna-maria_assey@berkeley.edu 
 
-This README file provides a clear overview of the project and how to set it up, run it, and contribute to it. You can edit the parts like the GitHub link, your username, and email. Once you have this README in place, your repo will be ready for use by others!
+
