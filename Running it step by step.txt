@@ -1,0 +1,43 @@
+Open terminal... click find on mac and type terminal and just open it then proceed with these steps:
+
+1.	Install Git:
+On macOS, use Homebrew to install Git:
+
+brew install git
+
+	2.	Clone the GitHub repository:
+You then need to clone the global communities GitHub repository onto your local machine by running this command in your terminal:
+
+git clone https://github.com/yourusername/Global-communities---Septic-Tanks.git
+
+This will download all the code files into a local folder.
+
+	3.	Navigate to the project folder:
+After cloning the repository, you should move into the project folder with:
+
+cd Global-communities---Septic-Tanks
+
+
+	4.	Create a virtual environment:
+Then, create a virtual environment to avoid conflicts with other Python packages:
+
+python3 -m venv env
+
+
+	5.	Activate the virtual environment:
+After creating the virtual environment, you can activate it using:
+
+source env/bin/activate
+
+
+	6.	Install dependencies:
+we just skip this for now bcs this is our first prototype..so on to the next command
+
+
+	7.	Run the software:
+Finally, you can run the software with:
+
+python3 main.py
+
+
+
