@@ -35,7 +35,9 @@ we just skip this for now bcs this is our first prototype..so on to the next com
 
 
 	7.	Run the software:
-Finally, you can run the software with:
+Now the good part,,
+
+you can run the software with:
 
 python3 main.py
 
