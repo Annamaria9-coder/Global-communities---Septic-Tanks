@@ -2,6 +2,10 @@ from calculations import calculate_tank_size, calculate_materials, calculate_cos
 from materials import MATERIALS
 
 def get_user_input():
+    # Print welcome message
+    print("\nWelcome to the Global Communities Septic Tank Design Project!")
+    print("This tool will help you calculate the optimal size, material volume, and cost of your septic tank based on the inputs provided.\n")
+
     # Gather user inputs for the calculation
     population = int(input("Enter population size: "))
     waste_per_person = float(input("Enter average waste per person per day (liters): "))
@@ -35,7 +39,7 @@ def main():
     # Display the results
     print(f"\nSeptic Tank Size: {tank_size:.2f} cubic meters")
     print(f"Material Volume Needed: {material_volume:.2f} units")
-    print(f"Total Cost: {total_cost:.2f} currency units")
+    print(f"Total Cost: {total_cost:.2f} Ghanaian Cedis")
 
 if __name__ == "__main__":
-    main() 
+    main()
