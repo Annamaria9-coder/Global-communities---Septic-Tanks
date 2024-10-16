@@ -1,0 +1,4 @@
+cd ~/Documents/Global-communities---Septic-Tanks
+source env/bin/activate
+git pull origin main
+python3 main.py
