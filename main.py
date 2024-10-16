@@ -15,7 +15,7 @@ def get_user_input():
     
     material_choice = int(input("\nSelect the material by number: "))
     material = list(MATERIALS.keys())[material_choice - 1]
-    material_cost = float(input(f"Enter the cost per unit for {material} (in your currency): "))
+    material_cost = float(input(f"Enter the cost per unit for {material} (in Ghanaian Cedis): "))
     
     return population, waste_per_person, retention_time, seasonal_variation, material, material_cost
 
