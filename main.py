@@ -8,7 +8,7 @@ def get_user_input():
 
     # Gather user inputs for the calculation
     population = int(input("Enter population size: "))
-    wastewater_per_person = float(input("Enter average waste per person per day (liters per capita per day): "))
+    waste_per_person = float(input("Enter average waste per person per day (liters): "))
     retention_time = float(input("Enter retention time (days): "))
     seasonal_variation = float(input("Enter seasonal water variation (liters, optional, default is 0): ") or 0)
 
